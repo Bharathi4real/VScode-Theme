@@ -10,18 +10,17 @@ Better active tab highlights in Visual Studio Code (VS Code) for those who likes
 ## How to Use
 
 1. **Download the CSS File**:
-   - Download the custom CSS file from the link provided.
+   - Download the Theme file from the repo.
 
 2. **Place the File**:
    - Move the downloaded CSS file to your desired folder on your computer.
 
 3. **Enable Custom CSS in VS Code**:
    - Install the **Custom CSS and JS Loader** extension from the Extensions Marketplace.
-   - Open the command palette (Ctrl + Shift + P) and run **"Enable Custom CSS and JS"**.
+   - Follow the instructions provided by the extension:
 
-4. **Link the CSS File**:
-   - Run **"Custom CSS: Add Custom CSS"** in the command palette and provide the path to your CSS file.
-   - Save your changes and reload VS Code.
+4. **Reload VS Code**:
+   - Save your changes and reload VS Code to apply the new styles.
 
 ## Preview
 <img src="https://github.com/Bharathi4real/VScode-Theme/blob/main/Preview.png">
