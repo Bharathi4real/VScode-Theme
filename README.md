@@ -1,4 +1,4 @@
-# Custom CSS for Active Tabs Highlighting in VS Code Dark Theme
+# VS Code Custom CSS Theme for Active Tab Highlighting
 
 Better active tab highlights in Visual Studio Code (VS Code) for those who likes default Dark Theme.
 
