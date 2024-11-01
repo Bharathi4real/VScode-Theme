@@ -24,5 +24,7 @@ Better active tab highlights in Visual Studio Code (VS Code) for those who likes
    - Save your changes and reload VS Code.
 
 ## Preview
+<img src="https://github.com/Bharathi4real/VScode-Theme/blob/main/Preview.png">
+
 
 
