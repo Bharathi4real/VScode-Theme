@@ -1,0 +1,99 @@
+
+.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.selected.tab-border-top>.tab-border-top-container {
+    height: 5px;
+    top: 0;
+    z-index: 6;
+    background-size: 300% auto;
+    border-radius: 4px;
+    background-image: linear-gradient(to right, #ff007a, #7f00ff, #00bcd4, #ff007a);
+    animation: borderTopActive 6s ease-in-out infinite;
+} @keyframes borderTopActive {
+    0% {
+        background-position: 0%;
+    }
+    50% {
+        background-position: 100%;
+    }
+    100% {
+        background-position: 0%;
+    }
+}
+
+.monaco-workbench .activitybar > .content :not(.monaco-menu) > .monaco-action-bar .action-item.checked .active-item-indicator::before {
+    position: absolute;
+    border-left-color: transparent;
+    width: 3px;
+    border-radius: 4px;
+    background: linear-gradient(180deg, #ff007a, #7f00ff, #00bcd4, #ff007a);
+    background-size: auto 200%;
+    animation: borderLeftActive 6s ease-in-out infinite;
+} @keyframes borderLeftActive {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 50% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+.monaco-workbench .explorer-viewlet .monaco-list-row:hover,
+.monaco-workbench .explorer-viewlet .monaco-list-row.selected,
+.monaco-workbench .scm-viewlet .monaco-list-row:hover,
+.monaco-workbench .scm-viewlet .monaco-list-row.selected,
+.monaco-workbench .debug-viewlet .monaco-list-row:hover,
+.monaco-workbench .debug-viewlet .monaco-list-row.selected,
+.monaco-workbench .search-viewlet .monaco-list-row:hover,
+.monaco-workbench .search-viewlet .monaco-list-row.selected {
+    background: linear-gradient(90deg,#7f00ff,#00bcd4, #7f00ff);
+    color: #ffffff;
+    border-radius: 4px;
+    background-size: 200% 100%;
+    animation: hoverGradient 6s ease-in-out infinite;
+    transition: color 1s ease;
+}
+
+.monaco-workbench .explorer-viewlet .monaco-list-row:hover .label-name,
+.monaco-workbench .explorer-viewlet .monaco-list-row.selected .label-name,
+.monaco-workbench .scm-viewlet .monaco-list-row:hover .label-name,
+.monaco-workbench .scm-viewlet .monaco-list-row.selected .label-name,
+.monaco-workbench .extensions-viewlet .monaco-list-row:hover .label-name,
+.monaco-workbench .extensions-viewlet .monaco-list-row.selected .label-name,
+.monaco-workbench .debug-viewlet .monaco-list-row:hover .label-name,
+.monaco-workbench .debug-viewlet .monaco-list-row.selected .label-name,
+.monaco-workbench .search-viewlet .monaco-list-row:hover .label-name,
+.monaco-workbench .search-viewlet .monaco-list-row.selected .label-name {
+    font-weight: bold;
+    color: #ffffff;
+} @keyframes hoverGradient {
+    0% {
+        background-position: 0%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0%;
+    }
+}
+
+.monaco-workbench .part.panel>.title>.composite-bar-container>.composite-bar>.monaco-action-bar .action-item.checked:not(:focus) .active-item-indicator:before {
+    border-top-color: transparent !important;
+    height: 4px;
+    border-radius: 4px;
+    background-size: 200% auto;
+    background-image: linear-gradient(to right,#ff007a, #7f00ff, #00bcd4, #ff007a);
+    animation: panelBorderActive 6s ease-in-out infinite;
+} @keyframes panelBorderActive {
+    0% {
+        background-position: 0%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0%;
+    }
+}
