@@ -20,7 +20,6 @@
 }
 
 /* For The Side Bar Active Tab */
-
 .monaco-workbench .activitybar > .content :not(.monaco-menu) > .monaco-action-bar .action-item.checked .active-item-indicator::before {
     position: absolute;
     border-left-color: transparent;
@@ -42,7 +41,6 @@
 }
 
 /* File Tree Selection and Hover */
-
 .monaco-workbench .explorer-viewlet .monaco-list-row:hover,
 .monaco-workbench .explorer-viewlet .monaco-list-row.selected,
 .monaco-workbench .scm-viewlet .monaco-list-row:hover,
