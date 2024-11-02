@@ -69,7 +69,6 @@
     }
 }
 
-
 /* For The Bottom Bar Active Tab */
 .monaco-workbench .part.panel>.title>.composite-bar-container>.composite-bar>.monaco-action-bar .action-item.checked:not(:focus) .active-item-indicator:before {
     border-top-color: transparent !important;
